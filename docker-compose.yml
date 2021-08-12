@@ -21,9 +21,9 @@ services:
       - ICINGA2_FEATURE_GRAPHITE_URL=http://graphite
       # - ICINGA2_FEATURE_GRAPHITE_SEND_THRESHOLDS=true
       # - ICINGA2_FEATURE_GRAPHITE_SEND_METADATA=false
-      #- ICINGAWEB2_ADMIN_USER=icingaadmin
-      #- ICINGAWEB2_ADMIN_PASS=icinga
-      #- ICINGA2_USER_FULLNAME=Icinga2 Docker Monitoring Instance
+      #- ICINGAWEB2_ADMIN_USER=sellpp
+      #- ICINGAWEB2_ADMIN_PASS=123456
+      #- ICINGA2_USER_FULLNAME=Chinh Dao Quang
       - DEFAULT_MYSQL_HOST=mysql
     volumes:
       - ./data/icinga/cache:/var/cache/icinga2
